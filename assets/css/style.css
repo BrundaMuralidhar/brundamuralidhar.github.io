@@ -1,4 +1,4 @@
-/**
+6/**
 * Template Name: iPortfolio - v3.7.0
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
@@ -295,8 +295,8 @@ section {
 .about .content {
   margin-top: 50px;
   margin-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 0px;
 }
 
 .about .content .profile {
@@ -317,6 +317,7 @@ section {
 }
 .about .content ul li {
   margin-bottom: 20px;
+  padding-left: 50px;
   display: flex;
   align-items: center;
 }
@@ -379,7 +380,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -484,6 +485,10 @@ section {
   border: 2px solid #1f5297;
 }
 
+#institute-name{
+  font-size: 22px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -571,11 +576,10 @@ section {
   opacity: 1;
   bottom: 0;
 }
-#portfolio-reimagine-urban-spaces{
+/*#portfolio-reimagine-urban-spaces{
   margin-left: 95px;
   margin-right: 30px;
-}
-
+}*/
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -976,11 +980,12 @@ section {
 }
 #footer .copyright {
   text-align: center;
+  font-size: 11px;
 }
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
   color: #eaebf0;
 }
 @media (max-width: 1199px) {
