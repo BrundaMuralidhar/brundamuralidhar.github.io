@@ -1,4 +1,4 @@
-6/**
+/**
 * Template Name: iPortfolio - v3.7.0
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
@@ -294,7 +294,7 @@ section {
 --------------------------------------------------------------*/
 .about .content {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding-left: 20px;
   padding-right: 0px;
 }
@@ -332,6 +332,9 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about .img-fluid {
+  margin-top: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -624,6 +627,7 @@ section {
   margin-top: 10px;
 }
 .portfolio-details .portfolio-description {
+  box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
   padding-top: 30px;
 }
 .portfolio-details .portfolio-description h2 {
@@ -634,6 +638,45 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+/*.isotope-overlay*/
+.isotope-overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:rgba(31,44,108,.5);
+    display:flex;
+    align-items:center;
+    text-transform: uppercase;
+    justify-content:center;
+    flex-direction:row;
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -ms-transform:scale(0);
+    -o-transform:scale(0);
+    transform:scale(0);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.isotope-overlay a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.isotope-item:hover .isotope-overlay{
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    top:0;
+}/*.isotope-overlay*/
 
 /*--------------------------------------------------------------
 # Services
